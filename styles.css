@@ -1,0 +1,45 @@
+.NOTE {
+               
+                position: relative;
+                padding-left: 40px;
+                color:black;
+                padding: 80px;
+                
+                background-color:#e5f3fe ;
+                border-radius:10px;
+                border-left: 4px solid #0085f2;
+                padding: 2rem 2rem 2rem 6rem;
+                font-family: "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+                letter-spacing: -0.031rem;
+                box-shadow: 0 1px 2px #2b2a330d;
+            }
+            
+            .NOTE::before {
+                
+                content: "i";
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                background-color: #0085f2;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 50%;
+                position: absolute;              
+                left: 35px;
+                top: 48px;
+                transform: translateY(-50%);
+                
+                
+            } 
+            .text-tribute {justify-content: center;
+
+
+            }
+            .gras {font-weight: bold;}
+
+            .grey {
+                color:#4e4e4e;
+            }
